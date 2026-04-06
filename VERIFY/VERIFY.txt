@@ -1,0 +1,53 @@
+SLANG-Money Verification
+
+1. Run reference demonstration:
+   python demo/slang_kernel.py
+
+2. Observe:
+   - deterministic structural resolution
+   - no dependence on time, order, or execution sequence
+   - rules evaluate purely based on structure
+   - no transactions, no settlement, no movement
+   - state emerges only when structure is satisfied
+
+3. Expected visible state:
+   - A_initial = "100"
+   - B_initial = "100"
+   - delta_A = "-50"
+   - delta_B = "50"
+   - A_final = "50"
+   - B_final = "150"
+   - state = "resolved"
+
+4. Expected structural maturity:
+   - True
+
+5. Expected behavior:
+   - complete structure → full state visible
+   - partial structure → partial state visible
+   - inconsistent structure → no invalid state produced
+   - identical structure → identical outcome
+
+6. Verify determinism:
+   - run the script multiple times
+   - confirm identical visible state and certificate
+
+7. Verify file identity:
+   certutil -hashfile demo\slang_kernel.py SHA256
+
+Note:
+- the file hash represents file identity
+- the structural certificate represents resolved structure
+- these are not required to be equal
+
+The structural certificate is derived from the resolved structure, not from the file itself.
+Identical structure produces identical certificates, independent of file representation.
+
+8. Confirm:
+   - output is identical across runs
+   - certificate remains consistent for identical structure
+   - modified structure produces a different certificate
+
+Result:
+Deterministic structural resolution confirmed for SLANG-Money.
+State visibility emerges from structure without transactions, execution, or sequencing.

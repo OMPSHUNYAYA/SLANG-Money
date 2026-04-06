@@ -1,0 +1,3 @@
+SLANG-Money Demo Freeze — SHA256
+
+slang_kernel.py = fa0e51f24c289a6cb0f91069b73253ce02ded74c648398ea0fc7695fbcd06ea4
