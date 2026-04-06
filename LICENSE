@@ -1,0 +1,180 @@
+Open Standard License — SLANG-Money Reference Implementation
+
+SLANG-Money — Structural Resolution (Money Without Transactions)
+Shunyaya Structural Resolution Model
+
+Legal Status
+
+This license is an open permissive Open Standard license for the SLANG-Money reference implementation.
+
+To the maximum extent permitted by applicable law, this license grants rights similar in spirit to permissive open-source licenses, while preserving truthful representation requirements for the SLANG-Money name and reference implementation.
+
+If any provision is found unenforceable, the remaining provisions remain in effect.
+
+Permission
+
+Permission is hereby granted, free of charge, to any person or organization to:
+
+use
+execute
+study
+reproduce
+publish
+distribute
+modify
+implement
+extend
+
+the SLANG-Money reference implementation, in whole or in part, for commercial or non-commercial use, subject only to the representation and naming conditions defined in this license.
+
+No registration, fees, or approval required.
+
+No Restrictions on Use
+
+This reference implementation imposes no restrictions on usage, except:
+
+truthful representation
+non-misleading use of the SLANG-Money name
+
+Attribution is not required.
+No endorsement or certification is implied.
+No runtime obligations apply.
+
+Correctness is governed by:
+
+structure_mature = complete AND consistent
+
+—not by licensing terms.
+
+Representation & Naming
+
+Modified or extended implementations:
+
+must not be presented as the canonical SLANG-Money reference implementation unless structural behavior is preserved
+must not imply official authorship, certification, or endorsement
+
+Use of the name “SLANG-Money” must not imply:
+
+endorsement
+certification
+governance authority
+official compliance
+
+Recommended Attribution (Optional)
+
+Preferred form:
+
+Implements SLANG-Money — Structural Resolution (Shunyaya Structural Model)
+
+Attribution must not imply endorsement.
+
+Scope of the Reference Implementation
+
+This release includes:
+
+structural state definitions
+rule-based resolution logic
+a minimal executable reference (tiny kernel)
+outputs and reference traces
+
+SLANG-Money defines a deterministic structural model where financial state emerges from structure:
+
+resolve(structure) ->
+    state_visible (full)    if complete and consistent
+    state_visible (partial) if partially satisfied
+    no_visible_state        if conflicting
+
+What This Demonstrates
+
+• financial state without transactions
+• independence from settlement and execution pipelines
+• independence from ordering and synchronization
+• structural maturity governing visibility
+• safe handling of incomplete or conflicting structure
+• deterministic and reproducible outcomes
+
+Conformance
+
+An implementation is considered compatible if it preserves:
+
+structure-based correctness
+independence from transactions as a requirement
+deterministic resolution
+structural maturity-driven visibility
+reproducibility under equivalent inputs
+explicit handling of incomplete and conflicting structure
+
+Conformance is judged by observable behavior, not internal implementation.
+
+Relationship to Shunyaya Framework
+
+SLANG-Money is part of the broader Shunyaya framework.
+
+It builds on:
+
+SLANG → structural resolution without execution
+STOCRS → structure-first computation (correctness from structure)
+STIME → Structural Time (time from valid structural transitions)
+SSUM-Time → structural time reconstruction engine
+ORL → structural correctness across systems
+
+Architecture License
+
+The conceptual architecture and documentation are licensed under:
+
+Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)
+
+Permitted:
+
+research
+academic use
+study and reproduction
+non-commercial distribution
+
+Commercial use of architecture text is not permitted under this license.
+
+Full license:
+https://creativecommons.org/licenses/by-nc/4.0/
+
+Responsibility
+
+Use of SLANG-Money in real-world systems is entirely at the user’s own responsibility.
+
+This reference implementation provides:
+
+deterministic structural resolution
+state emergence from structure
+safe handling of incomplete/conflicting structure
+
+It does not provide:
+
+financial guarantees
+regulatory compliance
+fraud elimination
+operational guarantees
+
+No Warranty
+
+THE SLANG-MONEY REFERENCE IMPLEMENTATION IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND.
+
+THIS INCLUDES, BUT IS NOT LIMITED TO:
+
+MERCHANTABILITY
+FITNESS FOR A PARTICULAR PURPOSE
+NON-INFRINGEMENT
+
+IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM USE OF THIS IMPLEMENTATION.
+
+Closing Statement
+
+SLANG-Money explores a simple but fundamental idea:
+
+Financial state can emerge from structure, without transactions, execution, or settlement.
+
+It is released openly to encourage:
+
+independent validation
+real-world testing
+safe experimentation
+
+SLANG-Money is offered as a minimal reference implementation of that possibility
