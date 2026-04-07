@@ -118,7 +118,7 @@ Structural maturity determines when financial state becomes visible.
 
 ## **What This Demonstration Will Show**
 
-The following minimal script demonstrates deterministic structural resolution.
+The following demonstration uses a minimal extract from the full kernel to illustrate deterministic structural resolution.
 
 It will show that:
 
@@ -133,11 +133,15 @@ It will show that:
 
 ## **Now Let’s Prove It**
 
-Below is the actual working kernel (~2.06 KB)
+Below is a **minimal executable extract** from the full SLANG-Money reference kernel.
+
+The **full working kernel (~2.06 KB)** is provided separately in:
+
+`demo/slang_kernel.py`
 
 ---
 
-## **The Code (~2.06 KB)**
+## **The Code (Extract from the ~2.06 KB Full Kernel)**
 
 ```
 rules = [
@@ -188,7 +192,9 @@ STRUCTURAL MATURITY:
 True  
 
 STRUCTURAL CERTIFICATE:  
-`<hash>`
+`fa0e51f24c289a6cb0f91069b73253ce02ded74c648398ea0fc7695fbcd06ea4`
+
+(Note: Certificate derived from the full reference kernel execution in `demo/slang_kernel.py`)
 ```
 
 ---
@@ -390,11 +396,13 @@ Consider:
 
 This creates contradiction.
 
-In full model:
+In an **extended conflict-aware model**:
 
 `structure_conflict -> ABSTAIN`
 
 👉 no visible state
+
+**Note:** `ABSTAIN` is a conceptual extension and is not implemented in this minimal reference kernel.
 
 ---
 
@@ -456,7 +464,7 @@ absence of state → structural incompleteness
 
 ## **WHAT THIS DEMONSTRATION SHOWS**
 
-Even in ~2.06 KB:
+Even in ~2.06 KB (full reference kernel):
 
 - no transaction required  
 - no settlement pipeline  
