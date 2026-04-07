@@ -137,7 +137,7 @@ Below is a **minimal executable extract** from the full SLANG-Money reference ke
 
 The **full working kernel (~2.06 KB)** is provided separately in:
 
-👉 [View Full Reference Kernel](demo/slang_kernel.py)
+👉 [View Full Reference Kernel](../demo/slang_kernel.py)
 
 ---
 
