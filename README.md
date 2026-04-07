@@ -14,6 +14,8 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Open-Standard](https://img.shields.io/badge/Reference-Open%20Standard-blue)
 
+[![Verify](https://github.com/OMPSHUNYAYA/SLANG-Money/actions/workflows/slang-money-verify.yml/badge.svg)](https://github.com/OMPSHUNYAYA/SLANG-Money/actions/workflows/slang-money-verify.yml)
+
 ## **Money Without Transactions: A 2.06 KB Proof That Financial State Does Not Require Execution**
 
 A minimal deterministic kernel (~2.06 KB) where financial state emerges directly from structure — not from movement.
