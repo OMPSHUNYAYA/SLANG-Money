@@ -80,10 +80,10 @@ Yet correctness holds — when structure is complete.
 
 ## 🧾 **Structural Lineage**
 
-SLANG-Money-Kernel represents the next layer beyond ORL-Money:
+SLANG-Money-Kernel represents the **structural foundation layer** of financial correctness:
 
-- ORL-Money → multi-node structural reconciliation
-- SLANG → single-node structural resolution
+- **SLANG →** single-node structural resolution (correctness without execution)  
+- **ORL-Money →** multi-node structural reconciliation (correctness without ordering)  
 
 It shows that:
 
@@ -108,7 +108,11 @@ It shows that:
 ### 🔍 Verification
 
 - [Verify Instructions](VERIFY/VERIFY.txt)  
-- [Demo Hash Freeze](VERIFY/FREEZE_DEMO_SHA256.txt)  
+- [Demo Hash Freeze](VERIFY/FREEZE_DEMO_SHA256.txt)
+
+### ⚙️ Framework
+
+[Dependency Elimination Framework](docs/Dependency-Elimination-Framework.png)
 
 ---
 
@@ -479,17 +483,30 @@ Together:
 
 ---
 
-## **The Structural Elimination Framework**
+## **🧱 Dependency Elimination Framework**
 
-| Domain      | Removed Dependency | What Preserves Correctness |
-|-------------|--------------------|----------------------------|
-| Time        | clocks             | structure                  |
-| Decision    | order              | structure                  |
-| Meaning     | sequence           | structure                  |
-| Money       | transactions       | structure                  |
-| Truth       | agreement          | structure                  |
-| Computation | execution          | structure                  |
-| AI          | inference          | structure                  |
+**All dependencies resolve to structure.**
+
+| Domain | Removed Dependency | What Preserves Correctness |
+|---|---|---|
+| Time | clocks | structure |
+| Decision | order | structure |
+| Meaning | sequence | structure |
+| Money | continuous connectivity | structure |
+| Truth | agreement | structure |
+| Computation | execution | structure |
+| AI | inference | structure |
+| Cybersecurity | process / pipelines | structure |
+| Identity | authority / registry | structure |
+| Consensus | voting / quorum | structure |
+| Network | connectivity | structure |
+| Audit | verification | structure |
+
+**Each row removes a dependency — yet correctness remains intact.**
+
+Nothing is replaced.  
+Nothing is approximated.  
+Only the dependency is eliminated.
 
 ---
 
