@@ -2,9 +2,7 @@
 
 **Structural Language (SLANG) — Money**
 
-**Deterministic • Structure-Based • No Transactions • No Settlement Flow • No Ordering**
-
-**No Transaction • No Settlement • No Sequence**
+**Deterministic • Structure-Based • No Transactions • No Settlement • No Ordering**
 
 ---
 
@@ -136,10 +134,12 @@ SLANG-MONEY/
 │   └── slang_kernel.py  
 
 ├── docs/  
+│   ├── Quickstart.md  
 │   ├── FAQ.md  
 │   ├── Proof-Sketch.md  
 │   ├── SLANG-Money-Reference-Demonstration.md  
-│   └── Slang-Money-Structural-Resolution.png  
+│   ├── Slang-Money-Structural-Resolution.png  
+│   └── Dependency-Elimination-Framework.png  
 
 └── VERIFY/  
     ├── VERIFY.txt  
