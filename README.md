@@ -545,6 +545,29 @@ This release proves the principle in finance. Extensions are exploratory.
 
 ---
 
+## 🌐 **More SLANG Structural Reference Implementations**
+
+This repository is part of the broader **SLANG-Observatory** — a growing collection of tiny deterministic structural kernels across multiple domains.
+
+The observatory includes demonstrations such as:
+
+- invoice approval without workflows  
+- cybersecurity escalation without pipelines  
+- hurricane forecast visibility without forced publication  
+- password reset resolution without orchestration  
+- claims resolution without approval chains  
+- and many more structural admissibility demonstrations  
+
+All built on the same invariant:
+
+`correctness = structure`
+
+Explore the broader SLANG ecosystem here:
+
+🔗 [SLANG-Observatory](https://github.com/OMPSHUNYAYA/SLANG-Observatory)
+
+---
+
 ## 🔗 **Related Structural References**
 
 - [ORL-Money](https://github.com/OMPSHUNYAYA/ORL-Money) — multi-node structural money reconciliation  
